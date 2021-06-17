@@ -2,9 +2,13 @@
     margin:0;
     padding:0;
 }
+body{
+    font-size: 1em;
+}
 /* ========general ===============*/
 .container{
-    width:80%;
+    /*width:80 */
+    width:90%;
     margin:auto;
 
 }
@@ -12,28 +16,61 @@
     clear:both;
 }
 .col-ful{
-    width:100%;
+    width:98%;
 }
 
+h1{
+    font-size: 1.5em;
+}
+h2{
+    font-size: 1.4em;
+}
+h3{
+    font-size: 1.3em;
+}
+p{
+    font-size: 1.2em;
+}
+span{
+    font-size: 1em;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: flex-end;
+}
+/*
+.flex-main{
+    display: flex;
+    justify-content: space-between;
+}
+*/
 /*==========header section========*/
 header{
-    height:60px;
-    border-bottom:2px solid #000;
-    width:95%;
+    height:70px;
+    width:90%;
     margin:auto;
+    overflow: hidden;
+    border-bottom:2px solid #000;
 
 }
 header .col-8{
     float: left;
-    width:70%;
+    width:60%;
+    
 }
+
 header .col-4{
-    width: 30%;
+    width: 40%;
     float: right;
-    position: relative;
-    left:102px;
+    
+    
+    
+   
 
 }
+
+
 header  span{
     color:#4FC5C1;
 }
@@ -43,6 +80,7 @@ header  span{
 .information-section{
     margin-top:20px;
     margin-bottom: 20px;
+    
 }
 
 /* --------- work experience style -------*/
@@ -54,7 +92,7 @@ header  span{
 }
 .work-exp{
     background-color: #EFEFEF;
-    max-height: 1000px;
+    max-height: 866px;
     overflow: auto;
     
 }
@@ -65,38 +103,45 @@ header  span{
     padding-left:5px;
 }
 
+
 /* --------- work experience items style -------*/
 .work-exp-item{
     overflow: hidden;
-    display: inline-block;
+    
     
 }
-.work-exp-item .item-left-year{
-    width:15%;
-    margin-right:2%;
+.work-exp-item .item-left-year{    
     float: left;
-    top:40px;
-    position: relative;
+    /*width:18%; */
+    width:8%;
     text-align: center;
+    overflow: hidden;
+    position: relative;
+    top:30px;
 }
 .work-exp-item .item-left-year p{
     text-align: center;
+    width:100%;
+    font-size: 1rem;
 }
 
 .work-exp-item .item-right-content {
-    width:82%;
-    float: right;
-    border-left: 1px solid gray;
-    padding-left: 2%;
-    position: relative;
-    top: -18px;
     text-align:justify;
-    padding-right:10px;
+    border-left:1px solid red;
+    float:right;
+    width: 90%;
+    
+
+}
+.content-container{
+    padding:10px;
 
 }
 .work-exp-item .item-right-content .item-title h3{
     color:#4FC5C1;
-    padding-top:20px;
+    display: inline;
+    
+    
 
 }
 .work-exp-item .item-right-content .item-title p{
@@ -109,10 +154,12 @@ header  span{
     width:36%;
     float: right;
     margin-right: 2%;
+    
+
 }
 .university {
     overflow: auto;
-    max-height: 1000px;
+    max-height: 866px;
     
 
 
@@ -154,6 +201,7 @@ footer span{
     color:green;
 }
 
+/*============== chanriry work ============ */
 
 
 

@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* ========general ===============*/
+.container{
+    width:80%;
+    margin:auto;
+
+}
+.clear-fix{
+    clear:both;
+}
+.col-ful{
+    width:100%;
+}
+
+/*==========header section========*/
+header{
+    height:60px;
+    border-bottom:2px solid #000;
+    width:95%;
+    margin:auto;
+
+}
+header .col-8{
+    float: left;
+    width:70%;
+}
+header .col-4{
+    width: 30%;
+    float: right;
+    position: relative;
+    left:102px;
+
+}
+header  span{
+    color:#4FC5C1;
+}
+
+/*=============== information section =============*/
+
+.information-section{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+/* --------- work experience style -------*/
+.information-section .col-8{
+    width:60%;
+    float: left;
+    margin-right:2%;
+    
+}
+.work-exp{
+    background-color: #EFEFEF;
+    max-height: 1000px;
+    overflow: auto;
+    
+}
+.work-exp-title{
+    border-bottom: 1px solid #000;
+    padding-top: 10px;
+    margin-bottom: 0;
+    padding-left:5px;
+}
+
+/* --------- work experience items style -------*/
+.work-exp-item{
+    overflow: hidden;
+    display: inline-block;
+    
+}
+.work-exp-item .item-left-year{
+    width:15%;
+    margin-right:2%;
+    float: left;
+    top:40px;
+    position: relative;
+    text-align: center;
+}
+.work-exp-item .item-left-year p{
+    text-align: center;
+}
+
+.work-exp-item .item-right-content {
+    width:82%;
+    float: right;
+    border-left: 1px solid gray;
+    padding-left: 2%;
+    position: relative;
+    top: -18px;
+    text-align:justify;
+    padding-right:10px;
+
+}
+.work-exp-item .item-right-content .item-title h3{
+    color:#4FC5C1;
+    padding-top:20px;
+
+}
+.work-exp-item .item-right-content .item-title p{
+    font-weight: 400;
+}
+
+/*----------- university style---------*/
+.information-section .col-4{
+    /*width:28%;*/
+    width:36%;
+    float: right;
+    margin-right: 2%;
+}
+.university {
+    overflow: auto;
+    max-height: 1000px;
+    
+
+
+}
+.university .university-item{
+    width:80%;
+    float: right;
+    background-color:#EFEFEF;
+    padding:10px;
+    margin-bottom: 20px;
+    
+}
+.university .university-item .university-item-title{
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+
+}
+.university .university-item .university-item-content{
+}
+.university-item-content .university-item-content-subtitle{
+    color:#4FC5C1;
+    margin-top: 10px;
+    
+
+}
+.university-item-content .university-item-content-desc{
+    text-align: justify;
+    padding-right: 5px;;
+
+}
+
+footer{
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+
+footer span{
+    color:green;
+}
+
+
+
+
+
